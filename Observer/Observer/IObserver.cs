@@ -2,6 +2,6 @@
 {
 	internal interface IObserver
 	{
-		void Update(string message);
+		void Update(ExchangeRates rates);
 	}
 }
